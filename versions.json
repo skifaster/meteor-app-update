@@ -5,6 +5,10 @@
       "1.0.3"
     ],
     [
+      "arsnebula:classx",
+      "1.0.0"
+    ],
+    [
       "autoupdate",
       "1.1.3"
     ],

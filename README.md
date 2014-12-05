@@ -36,7 +36,7 @@ To notify the user when a new app update is available, simply add the template t
 
 ## Attribution and Acknowledgements
 
-This package was inspired by the Meteor Package (internal to the WebApp package):
+This package was inspired by the Meteor Package (internal to the WebApp package): <br/>
 https://github.com/meteor/mobile-packages/tree/master/packages/mdg:reload-on-resume
 
 ## License

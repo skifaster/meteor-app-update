@@ -11,9 +11,9 @@ App Update uses the ``Meteor.settings.public.env`` variable to decide whether or
 
 ```js
 {
-"public": {
-"env": "production"
-}
+  "public": {
+    "env": "production"
+   }
 }
 ```
 

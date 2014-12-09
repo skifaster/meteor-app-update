@@ -23,9 +23,9 @@ Exmaple settings.json file:
 Before initializing you can set any of the following settings:
 
 * ``AppUpdate.reload.settings.enabled``: **true** or false
-* AppUpdate.reload.settings.environments.production: ``true||false`` ``default:true``
-* AppUpdate.reload.settings.environments.development: ``true||false`` ``default:true``
-* AppUpdate.reload.settings.environments.test: ``true||false`` ``default:false``
+* ``AppUpdate.reload.settings.environments.development``: true or **false**
+* ``AppUpdate.reload.settings.environments.test``: **true** or false
+* ``AppUpdate.reload.settings.environments.production``: **true** or false
 
 To initialize the AppUpdate package:
 

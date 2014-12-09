@@ -10,7 +10,7 @@ Package.onUse(function(api) {
   api.versionsFrom("METEOR@0.9.2");
   api.use("meteor-platform");
   api.use("reactive-var");
-  api.use("arsnebula:classx")
+  api.use("arsnebula:classx@1.2.2")
 
   api.addFiles(
     [

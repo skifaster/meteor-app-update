@@ -27,9 +27,9 @@ Before initializing you can set any of the following settings:
 * AppUpdate.reload.settings.environments.development: ``true||false`` ``default:true``
 * AppUpdate.reload.settings.environments.test: ``true||false`` ``default:false``
 
-To initialize the ``ReloadController``:
+To initialize the AppUpdate package:
 
-``reloadController.preventReload()``.
+``AppUpdate.reload.preventReload()``.
 
 ## Usage
 
@@ -46,4 +46,4 @@ https://github.com/meteor/mobile-packages/tree/master/packages/mdg:reload-on-res
 ## License
 
 [MIT](http://choosealicense.com/licenses/mit/) -
-Copyright (c) 2013 [Ars Nebula](http://www.arsnebula.com)
+Copyright (c) 2014 [Ars Nebula](http://www.arsnebula.com)

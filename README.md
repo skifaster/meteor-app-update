@@ -22,7 +22,7 @@ Exmaple settings.json file:
 
 Before initializing you can set any of the following settings:
 
-* <b>AppUpdate.reload.settings.enabled</b>: ``true||false`` ``default: true``
+* ``AppUpdate.reload.settings.enabled``: **true** or false
 * AppUpdate.reload.settings.environments.production: ``true||false`` ``default:true``
 * AppUpdate.reload.settings.environments.development: ``true||false`` ``default:true``
 * AppUpdate.reload.settings.environments.test: ``true||false`` ``default:false``

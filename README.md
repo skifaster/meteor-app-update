@@ -29,7 +29,7 @@ Before initializing you can set any of the following settings:
 
 ## Usage
 
-To initialize the AppUpdate package in the Meteor app, initialize the ``preventReload()`` function. It is recommended to call this from the ``lib`` folder in the app.
+To initialize the AppUpdate package in the Meteor app, call the ``preventReload()`` function. It is recommended to call this from the ``lib`` folder in the app.
 
 ``AppUpdate.reload.preventReload()``.
 

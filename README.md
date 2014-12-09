@@ -9,7 +9,7 @@ Control Meteor Hotcode push and gracefully notify the user of an update.
 
 App Update uses the ``Meteor.settings.public.env`` variable to decide whether or not to intercept app updates.
 
-The package uses the following ``env`` strings. ``production`` ``test`` ``development``
+The package uses the following ``env`` strings. ``production``, ``test``, and ``development``
 
 ```js
 {

@@ -11,6 +11,7 @@ App Update uses the ``Meteor.settings.public.env`` variable to decide whether or
 
 The package uses the following ``env`` strings. ``production``, ``test``, and ``development``
 
+Exmaple settings.json file:
 ```js
 {
   "public": {

@@ -1,0 +1,8 @@
+[[[[[ ~/workspace/packages/arsnebula/arsnebula:appupdate/test ]]]]]
+
+=> Started proxy.
+=> Started your app.
+
+=> App running at: http://127.0.0.1:3000
+[34mI20141209-03:18:12.857(0)? [39mserver here!!
+=> Server modified -- restarting...                                   => Meteor server restarted

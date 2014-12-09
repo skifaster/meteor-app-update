@@ -27,12 +27,12 @@ Before initializing you can set any of the following settings:
 * ``AppUpdate.reload.settings.environments.test``: **true** or false
 * ``AppUpdate.reload.settings.environments.production``: **true** or false
 
+## Usage
 
 To initialize the AppUpdate package in the Meteor app, initialize the ``preventReload()`` function. It is recommended to call this from the ``lib`` folder in the app.
 
 ``AppUpdate.reload.preventReload()``.
 
-## Usage
 
 To notify the user when a new app update is available, simply add the template to your page:
 

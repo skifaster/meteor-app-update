@@ -20,7 +20,7 @@ Exmaple settings.json file:
 }
 ```
 
-Before initializing you can set any of the following settings:
+Before initializing you can set any of the following settings (client only):
 
 * ``AppUpdate.reload.settings.enabled``: **true** or false
 * ``AppUpdate.reload.settings.environments.development``: true or **false**
@@ -33,6 +33,12 @@ To initialize the AppUpdate package in the Meteor app, call the ``preventReload(
 
 ``AppUpdate.reload.preventReload()``.
 
+To prevent refreshing in a development environment:
+
+    if(Meteor.isClient) {
+      AppUpdate.reload.settings.environments.development = true;
+      AppUpdate.reload.preventReload();
+    }
 
 To notify the user when a new app update is available, simply add the template to your page:
 

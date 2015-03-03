@@ -1,5 +1,9 @@
 var env = require('system').env;
-var url = "http://localhost:3000";
+var url = env.ROOT_URL;
+
+if(!url) {
+  url = "http://localhost:3000"
+}
 
 describe("AppUpdate", function() {
   before(function() {

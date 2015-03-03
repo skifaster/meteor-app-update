@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - 0.10.25
+services:
+  - mongodb
+before_install:
+  - npm install -g phantomjs
+  - npm install -g casperjs
+  - npm install -g mocha
+  - npm install -g chai
+  - npm install -g mocha-casperjs
+  - npm install -g casper-chai
+install:
+  - curl https://install.meteor.com/ | sh
+before_script:
+  - mkdir -p shippable/testresults
+  - cd test
+  - wget https://raw.githubusercontent.com/arsnebula/devops/master/shippable/run-tests -O run-tests
+script: bash ./run-tests
+notifications:
+  email:
+    recipients:
+      - devops@arsnebula.com
+    on_success: change
+    on_failure: always

@@ -4,9 +4,6 @@ var url = "http://localhost:3000";
 describe("AppUpdate", function() {
   before(function() {
     casper.start(url);
-    casper.on('remote.message', function(msg) {
-      this.echo(msg);
-    })
   });
   it("should have a global AppUpdate class", function() {
     casper.then(function() {

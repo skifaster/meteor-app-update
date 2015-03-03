@@ -3,7 +3,7 @@
 Control Meteor Hotcode push and gracefully notify the user of an update.
 
 ## Current Version
-**v1.0.0**
+**v1.0.1**
 
 ## Configuration
 

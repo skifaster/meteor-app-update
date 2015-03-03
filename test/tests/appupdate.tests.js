@@ -1,12 +1,13 @@
 var env = require('system').env;
-var url = "http://localhost:3000";
+var url = env.ROOT_URL;
+
+if(!url) {
+  url = "http://localhost:3000"
+}
 
 describe("AppUpdate", function() {
   before(function() {
     casper.start(url);
-    casper.on('remote.message', function(msg) {
-      this.echo(msg);
-    })
   });
   it("should have a global AppUpdate class", function() {
     casper.then(function() {
@@ -54,7 +55,7 @@ describe("AppUpdate", function() {
     })
   });
   it("should force an update", function() {
-    casper.options.waitTimeout = 20000;
+    casper.options.waitTimeout = 40000;
     casper.then(function() {
       this.click("#forceUpdate");
     })

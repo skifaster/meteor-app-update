@@ -1,8 +1,14 @@
-[[[[[ ~/workspace/packages/arsnebula/arsnebula:appupdate/test ]]]]]
+[[[[[ /media/carsten/Windows8_OS/Users/carst_000/Nitrous/winterfell-nodejs/packages/arsnebula/appupdate/test ]]]]]
 
 => Started proxy.
+
+=> Meteor 1.0.3.2: README.md support in Isobuild and improvements to `meteor show`.
+
+  This release is being downloaded in the background. Update your app to
+   Meteor 1.0.3.2 by running 'meteor update'.
+
 => Started your app.
 
 => App running at: http://127.0.0.1:3000
-[34mI20141209-03:18:12.857(0)? [39mserver here!!
+[34mI20150303-12:16:11.318(-8)? [39mserver here!!
 => Server modified -- restarting...                                   => Meteor server restarted

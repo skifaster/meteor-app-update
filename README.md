@@ -1,4 +1,4 @@
-# App Update for Meteor
+# App Update for Meteor [![Build Status](https://api.shippable.com/projects/54add975d46935d5fbc1bef7/badge?branchName=master)](https://app.shippable.com/projects/54add975d46935d5fbc1bef7/builds/latest)
 
 Control Meteor Hotcode push and gracefully notify the user of an update.
 

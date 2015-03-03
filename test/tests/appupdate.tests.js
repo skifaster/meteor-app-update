@@ -55,7 +55,7 @@ describe("AppUpdate", function() {
     })
   });
   it("should force an update", function() {
-    casper.options.waitTimeout = 20000;
+    casper.options.waitTimeout = 40000;
     casper.then(function() {
       this.click("#forceUpdate");
     })

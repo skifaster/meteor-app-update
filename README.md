@@ -2,7 +2,7 @@
 
 Control Meteor Hotcode push and gracefully notify the user of an update.
 
-Need Help? [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/arsnebula)
+Need Help? [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/arsnebula/help)
 
 ## Current Version
 **v1.0.2**

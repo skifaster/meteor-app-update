@@ -48,5 +48,4 @@ https://github.com/meteor/mobile-packages/tree/master/packages/mdg:reload-on-res
 
 ## License
 
-[MIT](http://choosealicense.com/licenses/mit/) -
-Copyright (c) 2014 [Ars Nebula](http://www.arsnebula.com)
+[MIT](http://choosealicense.com/licenses/mit/) - Copyright (c) 2015 [Ars Nebula](http://www.arsnebula.com)

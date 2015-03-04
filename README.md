@@ -5,7 +5,8 @@ Control Meteor Hotcode push and gracefully notify the user of an update.
 Need Help? [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/arsnebula/help)
 
 ## Current Version
-**v1.0.2**
+**v1.0.3**
+
 
 ## Configuration
 
@@ -54,5 +55,4 @@ https://github.com/meteor/mobile-packages/tree/master/packages/mdg:reload-on-res
 
 ## License
 
-[MIT](http://choosealicense.com/licenses/mit/) -
-Copyright (c) 2014 [Ars Nebula](http://www.arsnebula.com)
+[MIT](http://choosealicense.com/licenses/mit/) - Copyright (c) 2015 [Ars Nebula](http://www.arsnebula.com)

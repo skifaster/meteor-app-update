@@ -55,13 +55,14 @@ describe("AppUpdate", function() {
     })
   });
   it("should force an update", function() {
-    casper.options.waitTimeout = 40000;
+    casper.options.waitTimeout = 60000;
     casper.then(function() {
       this.click("#forceUpdate");
     })
 
   });
   it("should show update prompt", function () {
+    casper.options.waitTimeout = 60000;
     casper.then(function() {
       this.waitForSelector(".appupdate-prompt");
 
